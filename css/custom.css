@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Product Sans"),
+        url("../fonts/Product-Sans-Regular.woff") format("woff"),
+        url("../fonts/Product-Sans-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Product Sans"),
+        url("../fonts/Product-Sans-Bold.woff") format("woff"),
+        url("../fonts/Product-Sans-Bold.ttf") format("ttf");
+}
+
+.titillium {
+    font-family: 'Titillium Web', sans-serif;
+    color: cadetblue;
+}
+
+.titillium p {
+    font-size: 14px;
+    line-height: 1.2;
+    text-indent: 20px;
+}
+
+.titillium p:first-of-type {
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+.titillium p:last-child {
+    word-spacing: 2px;
+
+}
+
+.inconsolata {
+    font-family: 'Inconsolata', monospace;
+    color: dimgray;
+}
+
+.inconsolata p {
+    line-height: 1.5;
+    text-indent: 50px;
+}
+
+.inconsolata p::first-letter {
+    font-size: 30px;
+}
+
+.inconsolata p:first-of-type {
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+.inconsolata p:last-child {
+    word-spacing: 20px;
+}
+
+.product-sans {
+    font-family: "Produst Sans";
+    color: rgb(5, 86, 86);
+}
+
+.product-sans p {
+    text-indent: 30px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.product-sans p:first-of-type {
+    letter-spacing: normal;
+}
+
+.product-sans p:last-child {
+    word-spacing: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
